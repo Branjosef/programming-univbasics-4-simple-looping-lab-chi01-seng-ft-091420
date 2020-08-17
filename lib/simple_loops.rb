@@ -9,7 +9,7 @@ def loop_message_five_times(message)
 end
   
 def loop_message_n_times(message, number)
-  while counter < number do
+  while counter < number.to_i do
     puts message
     counter += 1
   end
